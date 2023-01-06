@@ -14,6 +14,10 @@ a:hover{
     color: whitesmoke;
 }
 
+h6{
+    color: #737272;
+}
+
 
 .primary-btn{
     background-color: white;
@@ -69,7 +73,7 @@ main{
     margin-bottom: 32px;
 }
 
-/* Failures list */
+/* Failures list style*/
 
 .failure-container{
     display: flex;
@@ -105,4 +109,63 @@ main{
 
 .tick-mark{
     color: #16D887;
+}
+
+/* Skill style */
+
+
+.skill-container{
+    
+    padding-left:100px;
+    
+    
+}
+
+.skill-container-title{
+    margin-bottom: 50px;
+    
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+.skill-list{
+    display: flex;
+    gap: 130px;
+    margin-left: 70px;
+}
+
+    
+
+
+.skill-list h4{
+    text-align: center;
+}
+
+/* contact banner style */
+
+.contact-banner-container{
+    height: 300px;
+    background-image: url(../images/watch.png);
+    margin-top: 130px;
+   
+}
+
+.contact-banner{
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    height: 100%;
+    
+}
+
+.contact-banner-element{
+    padding: 60px 64px;
+    
+}
+.contact-banner-element h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+
 }
