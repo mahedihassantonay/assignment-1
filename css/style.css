@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #005FAC;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+
+.primary-btn{
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 15px;
+
+}
+
+.primary-btn:hover{
+    background-color: #00B8EC;
+    color: #FFFFFF;
+}
+
+
+/* banner style */
+
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height:900px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.banner-element{
+    float: right;
+    margin:216px 230px 0 845px;
+    text-align: right;
+    
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight:700;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.banner-description{
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
