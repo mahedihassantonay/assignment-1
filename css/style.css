@@ -39,6 +39,75 @@ main{
     margin: 0 auto;
 }
 
+.primary-color{
+    color: #00A9E4;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* nav bar style */
+
+.nav-bar{
+    
+    background-color: #12a1c996;
+    
+}
+.nav-bar-element{
+    max-width: 1140px;
+    background-color:whitesmoke;
+    margin: 0 auto;
+    height:50px;
+    font-weight: 700;
+    font-size: 25px;
+     padding: 5px 8px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-bar-element>ul{
+    display: flex;
+
+    gap: 25px;
+    
+}
+
+.nav-bar-element .dropdown{
+    display: none;
+    position: absolute;
+    padding: 18px 0;
+    background-color: white;
+    
+    
+}
+
+.nav-bar-element ul li{
+    background-color:;
+    padding: 9px 13px;
+    opacity: 70%;
+}
+
+.nav-bar-element  li:hover .dropdown{
+    display: block;
+    
+}
+.nav-bar-element ul li a{
+    color: black;
+    
+    
+
+}
+
+.nav-bar-element ul li a:hover{
+    color: white;
+    background: #08a7d3;
+    
+    
+    
+}
+
 
 /* banner style */
 
