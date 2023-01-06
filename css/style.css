@@ -30,6 +30,11 @@ a:hover{
     color: #FFFFFF;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 /* banner style */
 
@@ -62,4 +67,42 @@ a:hover{
     line-height: 26px;
     color: #FFFFFF;
     margin-bottom: 32px;
+}
+
+/* Failures list */
+
+.failure-container{
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.failure-list{
+    margin-top: 270px;
+    text-align: left;
+    padding-left: 87px;
+
+}
+
+.failure-list .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.failure-list .description{
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-list .list{
+    line-height: 36px;
+}
+
+
+.tick-mark{
+    color: #16D887;
 }
